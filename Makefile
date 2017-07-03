@@ -13,4 +13,4 @@ venv:
 	@$(PIP) install -r $(DEPS)
 
 run:
-	@$(PYTHON) manage.py runmodwsgi
+	@$(PYTHON) src/manage.py runmodwsgi
