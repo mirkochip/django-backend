@@ -7,6 +7,9 @@ define create-venv
 python3.5 -m venv venv
 endef
 
+clean:
+	rm -rf venv
+
 venv:
 	@$(create-venv)
 	@$(PIP) install -U pip -q
