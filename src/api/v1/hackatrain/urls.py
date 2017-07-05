@@ -1,7 +1,7 @@
 from django.conf.urls import url
 
-from api.v1.hackatrain.views import HomePageView
+from api.v1.hackatrain.views import HealthView
 
 urlpatterns = [
-    url(r'^$', HomePageView.as_view(), name='home'),
+    url(r'^health$', HealthView.as_view(), name='health'),
 ]
