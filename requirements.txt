@@ -1,5 +1,7 @@
 django
 djangorestframework
 django-filter
+ipdb
 mod_wsgi
 mysqlclient
+six

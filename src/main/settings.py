@@ -73,6 +73,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'wsgi.application'
 
 REST_FRAMEWORK = {
+    'EXCEPTION_HANDLER': 'api.v1.handlers.exception_handler',
     'DEFAULT_RENDERER_CLASSES': (
         'rest_framework.renderers.JSONRenderer',
     ),
