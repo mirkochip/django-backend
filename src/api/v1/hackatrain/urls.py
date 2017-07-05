@@ -1,6 +1,6 @@
 from django.conf.urls import url
 
-from api.views import HomePageView
+from api.v1.hackatrain.views import HomePageView
 
 urlpatterns = [
     url(r'^$', HomePageView.as_view(), name='home'),
